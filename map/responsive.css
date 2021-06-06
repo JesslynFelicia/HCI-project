@@ -1,0 +1,59 @@
+@media only screen and (max-width: 800px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    .isi {
+        display: initial!important;
+        text-align: center;
+    }
+    .isi img {
+        width: 80%;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .navbar {
+        background-color: black;
+        display: block;
+    }
+    .phonenav p {
+        color: white;
+    }
+    .navbar .but:active,
+    .but:hover .dropdown-content {
+        display: block;
+        z-index: 3;
+    }
+    .dropdown-content a {
+        color: white;
+    }
+    .navbar .home,
+    .reg {
+        display: none;
+    }
+    .phone {
+        display: block!important;
+    }
+    /* footer */
+    footer {
+        padding: 0;
+        height: 40px;
+        width: 100%;
+        background-color: #161d20;
+        bottom: 0;
+    }
+    footer a {
+        height: 40px;
+        display: none;
+    }
+    footer img {
+        padding-left: 30%;
+        transform: translate(50%);
+        display: block;
+        height: 40px;
+        width: 40px !important;
+    }
+}
