@@ -1,0 +1,53 @@
+@media only screen and (max-width: 800px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    form {
+        margin: 0 30%;
+    }
+    .navbar {
+        background-color: black;
+        display: block;
+    }
+    .phonenav p {
+        color: white;
+    }
+    .navbar .but:active,
+    .but:hover .dropdown-content {
+        display: block;
+        z-index: 3;
+    }
+    .dropdown-content a {
+        color: white;
+    }
+    .navbar .home,
+    .reg {
+        display: none;
+    }
+    .phone {
+        display: block!important;
+    }
+    /* footer */
+    footer {
+        background-color: #161d20;
+        position: fixed;
+        bottom: 0;
+    }
+    footer a {
+        height: 40px;
+        display: none;
+    }
+    footer img {
+        margin-left: 35%;
+        transform: translate(50%);
+        display: block;
+        height: 40px;
+        width: 40px !important;
+    }
+}
