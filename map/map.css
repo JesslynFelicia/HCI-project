@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #161d20;
+    color: white;
+}
+
+.isi img {
+    /* left: 50%;
+    transform: translate(50%, 0); */
+    box-sizing: border-box;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.anak {
+    margin: 20px;
+}
+
+.isi {
+    display: flex;
+    justify-content: space-around;
+}
+
+.isi div {
+    flex: 0 0 30%;
+}
+
+div {
+    margin-top: 100px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    margin: 5px 0;
+    overflow: hidden;
+    box-shadow: 0 5px 5px grey;
+}
+
+.navbar .left .btn img {
+    width: 30px;
+    height: 25px!important;
+    display: block;
+}
+
+.navbar .btn:hover {
+    display: block;
+    background-color: #ddd;
+    z-index: 1;
+}
+
+.left {
+    display: flex;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+}
+
+.dropdown-content {
+    position: absolute;
+    display: none;
+    background-color: black;
+}
+
+.dropbtn:hover .dropdown-content {
+    display: block;
+    z-index: 1;
+    background-color: black;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.navbar a {
+    color: white;
+}
+
+.phonenav {
+    display: none;
+}
+
+div {
+    height: fit-content;
+    padding: 0%;
+    margin: 0;
+}
+
+footer {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background: black;
+    height: 25px;
+}
+
+footer a {
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.footer-click:hover {
+    text-decoration: underline;
+    opacity: 1;
+}
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.center h3 {
+    margin: 20px;
+}
+
+.phone {
+    display: none!important;
+}
+
+.foot {
+    display: block;
+    height: 35px;
+    margin: 0 10px;
+    width: 35px;
+    float: left;
+}
+
+a,
+button {
+    cursor: pointer;
+}
